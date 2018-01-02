@@ -24,7 +24,7 @@
                   else {
                     // 1 per player1, 2 per player2
                     if ($button==1) {
-                      //stampa simbolo p1
+                      
                     }
                     if ($button==2) {
                       //stampa simbolo p2
