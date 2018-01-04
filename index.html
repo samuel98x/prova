@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
       <link href="./style.css" rel="stylesheet" type="text/css"/>
@@ -6,13 +5,26 @@
   <body>
     <h1>Benvenuto nel sito del gioco del tris!</h1>
       <form name="dati" action="launch.php" method="POST">
-        <label for="nome1">Nome del primo giocatore (cerchio): </label>
-        <input type="text " name="nome1" />
-        <div class = "vl"></div>
-        <label for="nome2">Nome del secondo giocatore (croce): </label>
-        <input type="text " name="nome2"/>
-        <p class = "in">Inizia sempre cerchio</p>
-        <input type="submit" name="conferma" value="conferma">
+		
+		<div class="g1">
+			<label for="nome1"> del primo giocatore (cerchio): </label>
+			<input type="text " name="nome1" />
+		</div>
+	  
+	  <div class = "vl"></div>
+		
+		<div class="g2">
+			<label for="nome2">Nome del secondo giocatore (croce): </label>
+			<input type="text " name="nome2"/>
+        </div>
+		<br><br>
+		<div class="iniz">
+			<h7>inizia sempre il cerchio</h7>
+		</div>
+		<div class="bot">
+			<input type="submit" name="conferma" value="conferma">
+		</div>
       </form>
   </body>
 </html>
+
